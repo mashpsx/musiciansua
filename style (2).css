@@ -1,0 +1,140 @@
+body{
+background-color: #7D7D7D ;
+background: url("https://i.pinimg.com/564x/2b/7a/62/2b7a62cc3436ca740146be09b286f09f.jpg");
+background-size: cover;
+ background-attachment: fixed;}
+#menu
+{
+	margin-top:15px;
+}
+
+#menu ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#menu ul a
+{
+	display:block;
+	color:#464646;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#menu ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#menu ul li.current-menu-item
+{
+	background:#686868;
+}
+
+#menu ul li:hover
+{
+	background:#8F8F8F ;
+}
+
+#menu ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#8F8F8F ;
+	padding:0
+}
+
+#menuul ul li
+{
+	float:none;
+	width:200px
+}
+
+#menu ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#menu ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#menu ul li:hover > ul
+{
+	display:block
+}
+.text{
+text-align: center;
+}
+.first{
+font-family: 'Shantell Sans', cursive;
+}
+img{
+border-radius: 8px;
+float: left;
+}
+.second{
+text-align: left;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Gloock', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Labrada', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Phudu', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Shantell Sans', cursive;
+font-family: 'Work Sans', sans-serif;
+}
+.third{
+font-family: 'Amatic SC', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Shantell Sans', cursive;
+}
+footer{
+background:#A59D9B;    
+border-radius: 6px;
+  } 
+ol{
+  width: 40%;
+  float: left;
+   margin: 5px;
+  font: 30px sens-serif;
+    border:3px solid #A59D9B;
+  border-radius: 6px;
+  background-color:#8D8685  ;
+}
+ol li {
+    border:3px solid #A59D9B;
+  border-radius: 3px;
+  background-color: #8D8685  ;
+}
+ol .Li {
+  border:3px solid #A59D9B;
+  border-radius: 6px;
+  background-color: #8D8685  ;}
+ol li a{
+text-decoration: none;
+}
+photo{
+margin: 50px;
+}
